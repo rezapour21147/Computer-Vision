@@ -1,0 +1,12 @@
+train: ../train/images
+val: ../valid/images
+
+nc: 1
+names: ['pen']
+
+roboflow:
+  workspace: mohammadamin-rezapour
+  project: yolo-1b5hy
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mahdi-ghazavi/yolo-1b5hy/dataset/1
